@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void goPageBack(View v) {
-        web.goBack();1
+        web.goBack();
         addressInput.setText(web.getOriginalUrl());
     }
 
